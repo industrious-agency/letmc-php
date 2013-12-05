@@ -121,7 +121,7 @@ class LetMC
 	 *
 	 * Function to perform the SOAP request
 	 * Returns any successful requests back to the previous function
-	 * Logs any failures in /wp-includes/letmc/logs if there are any
+	 * Logs any failures with the $this->log() function
 	 *
 	 * @access 	private
 	 * @param  	string 			$function 	SOAP Function Name
@@ -159,7 +159,7 @@ class LetMC
 	/**
 	 * Log
 	 *
-	 * Logs a message to the log file
+	 * Logs a message to the log file (./logs)
 	 *
 	 * @access	private
 	 * @param	string		message to be logged
