@@ -4,7 +4,8 @@
  *
  * PHP class to allow integration with the LetMC SOAP API
  *
- * @author Christian Thomas <christian@industriousmouse.co.uk>
+ * @author 		Christian Thomas <christian@industriousmouse.co.uk>
+ * @version 	0.1
  */
 class LetMC
 {
